@@ -2,23 +2,23 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "29731917"))
-API_HASH = os.environ.get("API_HASH", "d0b73a75f2d12cae5b04c21044ff0148 ")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8177375099:AAGuSTB57d3hyfCJ1wTe_FC_JEPNnXCDHGg")
+API_ID = int(os.environ.get("API_ID", "27433400"))
+API_HASH = os.environ.get("API_HASH", "1a286620de5ffe0a7d9b57e604293555")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 CREDIT = os.environ.get("CREDIT",
-                        '[꧁༒☬🦋✨⚔️✮⃝mrचौहान✮⃝🚩⚔️✨🦋☬༒꧂](tg://openmessage?user_id=8136984784)')
+                        '[꧁༒☬🦋✨⚔️✮⃝mrचौहान✮⃝🚩⚔️✨🦋☬༒꧂](tg://openmessage?user_id=6201066540)')
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "sample_mflix")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sindhavravi11:%24Sind1234567890@cluster0.bwlgbx3.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "")
+DATABASE_URL = os.environ.get("DATABASE_URL", "")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", " 8050673236"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "8050673236").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "6201066540"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "6201066540").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/ravi1996sindhav"
+PREMIUM_CHANNEL = "https://t.me/apnidosti12"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg").split()))
 
@@ -60,6 +60,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
